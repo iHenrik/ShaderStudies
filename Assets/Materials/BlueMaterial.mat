@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Spotlight
-  m_Shader: {fileID: 4800000, guid: 02cf42d6b2486c843beb0d60709157aa, type: 3}
+  m_Name: BlueMaterial
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,8 +39,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 1402033713, guid: eae8b6c741fb3c044888918a5745cd9e, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -56,11 +56,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _CircleRadius: 2.2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Falloff: 1.35
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -74,7 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CharacterPosition: {r: 2.4816856, g: 2.815, b: -0.16023797, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorTint: {r: 0.125, g: 0.125, b: 0.125, a: 1}
+    - _Color: {r: 0.11971199, g: 0.4012132, b: 0.516, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

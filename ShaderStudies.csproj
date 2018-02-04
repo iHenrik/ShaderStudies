@@ -286,6 +286,7 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Materials\AlwaysVisible.shader" />
     <None Include="Assets\Materials\SimpleDeformation.shader" />
     <None Include="Assets\Materials\Spotlight.shader" />
   </ItemGroup>
